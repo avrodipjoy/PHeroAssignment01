@@ -9,7 +9,7 @@ h1 h2 h3 h4 h5 h6 p {
     max-width: 1440px;
     margin: auto;
 }
-.hero-text {
+/* .hero-text {
     padding: 175px 207px;
     text-align: center;
 }
@@ -28,9 +28,43 @@ h1 {
     font-size: 65px;
     font-weight: 700;
     line-height: 79px;
-}
+} */
 p {
+    color: #707070;
     font-size: 18px;
     font-weight: 400;
     line-height: 28px;
+}
+
+.donate-plan {
+    text-align: center;
+}
+.donate-text {
+    padding: 0 200px;
+}
+h2 {
+    color: #121221;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 54px;
+}
+.donate-plan-card {
+    display: flex;
+    margin-top: 50px;
+}
+.plan-card-item {
+    border: 2px solid black;
+    padding: 40px 25px;
+    text-align: justify;
+    margin-left: 3%;
+    border-radius: 5px;
+}
+#card-one {
+    background-color: rgba(255, 89, 89, 0.1);
+}
+#card-two {
+    background-color: #FFF4D6;
+}
+#card-three {
+    background-color: rgba(79, 157, 166, 0.1);
 }
