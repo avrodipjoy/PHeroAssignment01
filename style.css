@@ -142,8 +142,30 @@ input {
     margin-bottom: 100px;
 }
 
-
-
+.team {
+    margin-bottom: 100px;
+    text-align: center;
+}
+.team-text {
+    padding: 0 180px;
+    text-align: center;
+}
+.team-card {
+    display: flex;
+    margin-top: 50px;
+    margin-right: 150px;
+}
+.team-card-item {
+    background-color: rgba(255, 105, 180, 0.295);
+    border: 2px solid black;
+    padding: 40px 25px;
+    text-align: justify;
+    margin-right: 3%;
+    border-radius: 5px;
+}
+.team-card-item img {
+    height: 300px;
+}
 
 
 
