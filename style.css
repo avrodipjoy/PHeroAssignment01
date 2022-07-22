@@ -11,26 +11,32 @@ h1 h2 h3 h4 h5 h6 p {
     max-width: 1440px;
     margin: auto;
 }
-/* .hero-text {
+.hero-text {
     padding: 175px 207px;
     text-align: center;
 }
 
 .hero {
-    background-image: url(images/donation9.jpg);
+    background-image: url(images/donation6.jpg);
     width: 100%;
     height: 100vh;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     background-color: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%);
+    color: white;
+    margin-bottom: 120px;
+}
+.hero-para {
+    color: white;
+    padding-bottom: 40px;
 }
 
 h1 {
     font-size: 65px;
     font-weight: 700;
     line-height: 79px;
-} */
+}
 
 .donation {
     text-align: center;
@@ -93,6 +99,7 @@ p {
     font-size: 18px;
     font-weight: 400;
     line-height: 28px;
+    text-align: justify;
 }
 .donate-plan-card {
     display: flex;
